@@ -5,7 +5,12 @@
 }
 
 .landing-bg {
-	background-image: url(./Images/BG-landing2.jpg);
+	background:
+	linear-gradient(
+			rgba(0, 0, 0, 0.61),
+			rgba(0, 0, 0, 0.61)
+		), 
+	url("./Images/wall.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
